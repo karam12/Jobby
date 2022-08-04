@@ -22,7 +22,7 @@ class UserFactory extends Factory
 
         return [
             'profil_id' => $this->faker->numberBetween(1, 3),
-            'first_name' => fake()->name(),
+            'name' => fake()->name(),
             'last_name' => fake()->name(),
             'email' => fake()->safeEmail(),
             'email_verified_at' => now(),

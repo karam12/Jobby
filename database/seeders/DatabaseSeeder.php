@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
         User::factory(10)->create();
 
         User::factory()->create([
-            'first_name' => 'Root!',
+            'name' => 'Root!',
             'email' => 'root@root.com',
             'password' => bcrypt('root'),
         ]);
